@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
-#define GAME 1
+#define WASD 1
 #define FL1 2
 #define FL2 3
 #define BOX 4
@@ -47,7 +47,7 @@
                         bindings = <
    &kp TAB     &kp Q   &kp W   &kp F      &kp P       &kp B                  &kp J     &kp L      &kp U       &kp Y     &kp SEMI   &kp EQUAL
    &kp LSHFT   &kp A   &kp R   &kp S      &kp T       &kp G                  &kp M     &kp N      &kp E       &kp I     &kp O      &kp SQT
-   &kp LCTRL   &kp Z   &kp X   &kp C      &kp D       &kp V                  &kp K     &kp H      &kp COMMA   &kp DOT   &kp FSLH   &tog BOX
+   &kp LCTRL   &kp Z   &kp X   &kp C      &kp D       &kp V                  &kp K     &kp H      &kp COMMA   &kp DOT   &kp FSLH   &tog WASD
                                &kp LGUI   &kp SPACE   &mo FL1                &mo FL2   &kp BSPC   &kp RET
                         >;
                 };
@@ -56,7 +56,7 @@
                         bindings = <
    &kp ESC     &kp TAB     &kp Q   &kp W      &kp E       &kp R                  &kp T     &kp J      &kp L   &kp U       &kp Y     &kp SEMI
    &kp LCTRL   &kp LSHFT   &kp A   &kp S      &kp D       &kp F                  &kp G     &kp M      &kp N   &kp E       &kp I     &kp O
-   &none       &kp LCTRL   &kp Z   &kp X      &kp C       &kp V                  &kp B     &kp K      &kp H   &kp COMMA   &kp DOT   &tog GAME
+   &none       &kp LCTRL   &kp Z   &kp X      &kp C       &kp V                  &kp B     &kp K      &kp H   &kp COMMA   &kp DOT   &tog WASD
                                    &kp LGUI   &kp SPACE   &mo FL1                &mo FL2   &kp BSPC   &kp RET
                         >;
                 };
