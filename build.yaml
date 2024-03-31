@@ -19,17 +19,5 @@ include:
     shield: chipper_right
   - board: seeeduino_xiao_ble
     shield: chipper_dongle
-include:
   - board: seeeduino_xiao_ble
-    shield: chipper_left
-  - board: seeeduino_xiao_ble
-    shield: chipper_right
-  - board: seeeduino_xiao_ble
-    shield: chipper_dongle
-include:
-  - board: seeeduino_xiao_ble
-    shield: chipper_left
-  - board: seeeduino_xiao_ble
-    shield: chipper_right
-  - board: seeeduino_xiao_ble
-    shield: chipper_dongle
+    shield: settings_reset
