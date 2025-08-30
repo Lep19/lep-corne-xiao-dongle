@@ -74,7 +74,7 @@
                         bindings = <
    &kp F12     &kp F1              &kp F2           &kp F3            &kp F4             &kp F5                  &kp F6       &kp F7         &kp F8         &kp F9   &kp F10   &kp F11
    &kp LSHFT   &kp C_VOLUME_DOWN   &kp C_PREVIOUS   &kp C_VOLUME_UP   &kp C_NEXT         &none                   &bt BT_CLR   &bt BT_SEL 0   &bt BT_SEL 1   &none    &none     &input_dp
-   &kp LCTRL   &none               &none            &none             &none              &none                   &none        &tog STENO     &none          &none    &none     &input_hdmi
+   &kp LCTRL   &none               &none            &none             &none              &none                   &none        &none          &none          &none    &none     &input_hdmi
                     	                            &none             &kp C_PLAY_PAUSE   &kp LALT                &none        &none          &none
                         >;    
                 };
