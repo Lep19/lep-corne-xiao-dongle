@@ -65,7 +65,7 @@
                         bindings = <
    &kp ESC     &kp N1     &kp N2     &kp N3   &kp N4      &kp N5                &kp N6   &kp N7      &kp N8      &kp N9      &kp N0     &kp MINUS
    &kp LSHFT   &kp DOWN   &kp LEFT   &kp UP   &kp RIGHT   &none                 &none    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp LBKT   &kp RBKT
-   &kp LCTRL   &none      &none      &none    &none       &none                 &none    &kp KP_N1   &kp KP_N2   &kp KP_N3   &none      &kp PIPE
+   &kp LCTRL   &none      &none      &none    &none       &none                 &none    &kp KP_N1   &kp KP_N2   &kp KP_N3   &none      &tog STENO
                                      &none    &none       &none                 &none    &kp KP_N0   &kp KP_DOT
                         >;
                 };
